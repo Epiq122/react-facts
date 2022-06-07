@@ -1,0 +1,11 @@
+.container {
+  background: #282d35;
+  height: 500px;
+}
+
+.main-header {
+  font-size: 39px;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 27px;
+}
