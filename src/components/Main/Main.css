@@ -1,11 +1,32 @@
 .container {
   background: #282d35;
-  height: 500px;
+  height: 559px;
+  width: 650px;
 }
 
 .main-header {
-  font-size: 39px;
+  position: absolute;
+  height: 41px;
+  left: 27px;
+  /* top: 148px; */
   color: #ffffff;
-  font-weight: bold;
-  margin-left: 27px;
+  font-size: 39px;
+  line-height: 47px;
+  padding-top: 148px;
+}
+
+.main-list {
+  height: 17px;
+  top: 235px;
+  left: 74.22px;
+
+  color: #ffffff;
+  text-align: center;
+  padding-top: 235px;
+  padding-left: 74px;
+}
+
+.main-list > li {
+  line-height: 35px;
+  font-size: 16px;
 }
