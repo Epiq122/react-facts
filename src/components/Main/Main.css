@@ -1,32 +1,58 @@
 .container {
-  background: #282d35;
-  height: 559px;
-  width: 650px;
+  padding: 57px 27px;
+  color: white;
+  background-image: url(../../img/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 75%;
 }
 
+.main-list {
+  margin-top: 46px;
+  margin-left: 46px;
+  max-width: 400px;
+}
+
+.main-list > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-header {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main-list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
+}
+
+/*
 .main-header {
   position: absolute;
   height: 41px;
   left: 27px;
-  /* top: 148px; */
+
   color: #ffffff;
   font-size: 39px;
   line-height: 47px;
   padding-top: 148px;
-}
+} */
 
-.main-list {
+/* .main-list {
   height: 17px;
   top: 235px;
   left: 74.22px;
-
+  font-weight: 400px;
   color: #ffffff;
   text-align: center;
   padding-top: 235px;
   padding-left: 74px;
-}
+} */
 
-.main-list > li {
+/* .main-list > li {
   line-height: 35px;
   font-size: 16px;
-}
+} */
